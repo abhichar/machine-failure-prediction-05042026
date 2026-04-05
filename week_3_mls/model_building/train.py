@@ -24,7 +24,7 @@ api = HfApi()
 
 Xtrain_path = "hf://datasets/abhichar/machine-failure-prediction-week3-05042026/Xtrain.csv"
 Xtest_path = "hf://datasets/abhichar/machine-failure-prediction-week3-05042026/Xtest.csv"
-ytrain_path = "hf://datasets/abhichar/machine-failure-prediction-week3-0504206/ytrain.csv"
+ytrain_path = "hf://datasets/abhichar/machine-failure-prediction-week3-05042026/ytrain.csv"
 ytest_path = "hf://datasets/abhichar/machine-failure-prediction-week3-05042026/ytest.csv"
 
 Xtrain = pd.read_csv(Xtrain_path)
