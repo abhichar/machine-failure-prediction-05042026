@@ -4,7 +4,7 @@ import os
 api = HfApi(token=os.getenv("HF_TOKEN"))
 api.upload_folder(
     folder_path="week_3_mls/deployment",     # the local folder containing your files
-    repo_id="abhichar/abhichar/machine_failure_model-week3-05042026",          # the target repo
+    repo_id="abhichar/machine_failure_model-week3-05042026",          # the target repo
     repo_type="space",                      # dataset, model, or space
     path_in_repo="",                          # optional: subfolder path inside the repo
 )
